@@ -1,0 +1,23 @@
+@media(max-width:800px){
+    body{
+        margin-top: 90px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-do-produto{
+        position: center;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        width: 375px;
+        height: auto;
+    }
+
+    .area-do-produto{
+        width: 375px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+}
